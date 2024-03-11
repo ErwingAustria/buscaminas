@@ -39,7 +39,7 @@ class Buscaminas:
             fila, columna = map(int, input("Ingrese fila y columna (separados por espacio): ").split())
 
             if not (0 <= fila < self.filas) or not (0 <= columna < self.columnas):
-                print("Coordenadas fuera de rango. Inténtalo de nuevo.")
+                print("Coordenadas fuera de rango. Inténtalo de nuevo !Tu puedes! .")
                 continue
 
             if self.tablero[fila][columna] == '*':
